@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish="storefront-ui/build"
+  base = "storefront-ui"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
